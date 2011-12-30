@@ -21,11 +21,10 @@
   border-bottom: 1px solid #d0d0d0;
 }
 
-progress {
+.progress {
   height: 20px;
   background: #FFF;
   float: left;
-  background: #ffffff;
   background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5));
   background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%);
