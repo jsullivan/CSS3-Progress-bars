@@ -7,9 +7,9 @@
   padding: 5px;
   height: 20px;
   background: #a0a0a0;
-  -webkit-box-shadow: 0px 1px 1px 0px #e0e0e0;
-  -moz-box-shadow: 0px 1px 1px 0px #e0e0e0;
-  box-shadow: 0px 1px 0px 0px #e0e0e0;
+  -webkit-box-shadow: 0px 1px 1px 0px #f0f0f0;
+  -moz-box-shadow: 0px 1px 1px 0px #f0f0f0;
+  box-shadow: 0px 1px 0px 0px #f0f0f0;
 }
 
 .bar_mortice {
@@ -38,6 +38,35 @@
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  MINIS
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.container_tiny {
+  margin: 0 auto;
+  padding: 3px;
+  height: 7px;
+  background: #a0a0a0;
+  -webkit-box-shadow: 0px 1px 1px 0px #f0f0f0;
+  -moz-box-shadow: 0px 1px 1px 0px #f0f0f0;
+  box-shadow: 0px 1px 0px 0px #f0f0f0;
+
+}
+
+.mortice_tiny {
+  height: 7px;
+  background: #777;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #333;
+  -moz-box-shadow: inset 0px 1px 2px 0px #333;
+  box-shadow: inset 0px 1px 2px 0px #333;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.progress_tiny {
+  height: 6px;
+  border-bottom: none;
+}
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
   STYLES
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
@@ -51,6 +80,18 @@
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
+
+.rounded_bar_container_tiny {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.rounded_tiny {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
   COLORS
@@ -152,10 +193,10 @@
   background: linear-gradient(top,  #00AAFF 0%,#0093dd 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00AAFF', endColorstr='#0093dd',GradientType=0 );
   border-top: 1px solid #88d7ff;
-  border-bottom: 1px solid #046;
+  border-bottom: 1px solid #069;
 }
-.blue_container {background: #046;}
+.blue_container {background: #069;}
 .blue_mortice {
-  background: #069;
+  background: #046;
   border-bottom: 1px solid #08c;
 }
