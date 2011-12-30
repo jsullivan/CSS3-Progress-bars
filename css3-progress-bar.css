@@ -21,8 +21,8 @@
   border-bottom: 1px solid #d0d0d0;
 }
 
-.progress {
-  height: 18px;
+progress {
+  height: 20px;
   background: #FFF;
   float: left;
   background: #ffffff;
@@ -61,7 +61,7 @@
 }
 
 .progress_tiny {
-  height: 6px;
+  height: 7px;
   border-bottom: none;
 }
 
