@@ -12,12 +12,12 @@ They are light-weight, requiring no javascript. They work on iOS devices, they'r
 
 		<div class="bar_container">
 			<div class="bar_mortice">
-				<div class="progress" style="width: 40%;"></progress>
+				<div class="progress" style="width: 40%;"></div>
 			</div>
 		</div>
 
 3. Change the progress bar's fill level with a percentage:
 
-		<div class="progress" style="width: 52%;"></progress>
+		<div class="progress" style="width: 52%;"></div>
 
 See example.html for more styles and colors.
