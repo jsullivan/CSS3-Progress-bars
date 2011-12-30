@@ -1,5 +1,5 @@
 # CSS3 Progress Bars
-These progress bars are built using CSS3. They can be used anywhere without the need for javascript and work on mobile devices, too.
+These progress bars are built using CSS3. They can be used anywhere without the need for javascript and they work on mobile devices, too.
 
 ## Instructions
 1. Include the progress bar stylesheet:
