@@ -22,7 +22,7 @@
 }
 
 .progress {
-  height: 20px;
+  height: 19px;
   background: #FFF;
   float: left;
   background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%);
@@ -37,7 +37,7 @@
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-  MINIS
+  TINY
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 .container_tiny {
   margin: 0 auto;
@@ -60,7 +60,7 @@
 }
 
 .progress_tiny {
-  height: 7px;
+  height: 6px;
   border-bottom: none;
 }
 
