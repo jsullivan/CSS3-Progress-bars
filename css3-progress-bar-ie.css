@@ -1,0 +1,15 @@
+/* CSS3 Progress bars by Josh Sullivan
+   @jsullivandigs on Twitter
+   josh@dipperstove.com */
+
+.progress {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  COLORS
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.green {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#AAFF00', endColorstr='#8c0',GradientType=0 );}
+.orange {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFAA00', endColorstr='#dd9300',GradientType=0 );}
+.pink {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF00AA', endColorstr='#dd0093',GradientType=0 );}
+.purple {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#AA00FF', endColorstr='#9300dd',GradientType=0 );}
+.blue {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00AAFF', endColorstr='#0093dd',GradientType=0 );}
