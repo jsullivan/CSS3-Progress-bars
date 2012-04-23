@@ -6,7 +6,13 @@ They are light-weight, requiring no javascript. They work on iOS devices, they'r
 ## Instructions
 1. Include the progress bar stylesheet:
 
-	    <link rel="stylesheet" href="css3-progress-bar.css">
+	  <link rel="stylesheet" href="css3-progress-bar.css" />
+
+1.1. If you need to fully support versions of Internet Explorer prior to 9, include the IE supplemental styles after the above line. Keep in mind that the progress bars will still render well in IE6/7/8 without these styles. These styles use proprietary IE style techniques that are known to not be performant. To keep your site rendering quickly and responding well, consider not including this line and gracefully degrading in older browsers.
+
+    <!--[if lt IE 9]>
+      <link rel="stylesheet" href="css3-progress-bar-ie.css" />
+    <![endif]-->
 
 2. Paste the following syntax where you want a progress bar. The progress far will fill the width of its containing block element.
 
